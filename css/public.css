@@ -1,0 +1,54 @@
+div.jtools_frame {
+  background: #fff;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 0;
+  margin: 0;
+  min-height: 600px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+div.jtools_frame.transparent {
+  background-color: transparent;
+}
+div.jtools_frame iframe {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+div.jtools_frame.error {
+  background: red !important;
+  color: white !important;
+  font-size: 16px !important;
+  min-height: 0;
+  padding: 1em;
+}
+
+div.jtools_frame.fullscreen {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99998;/* Just below the WordPress admin bar */
+}
+
+div.jtools_frame.resizable {
+  height: auto;
+  min-height: 0;
+}
+div.jtools_frame.resizable iframe {
+  bottom: auto;
+  height: auto;
+  position: relative;
+}

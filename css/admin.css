@@ -1,0 +1,60 @@
+.toplevel_page_jtools .wp-submenu .wp-first-item { display: none; }
+
+.jtools_shortcode {
+  background: #fff;
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: normal;
+  letter-spacing: .05em;
+  line-height: 1em;
+  margin: .5em 0 1.5em;
+  padding: 1em;
+  text-align: center;
+}
+
+.jtools_code {
+  background: #5E632F !important;
+  border: 0 !important;
+  border-left: 5px solid #97C64C !important;
+  color: #fff !important;
+  font-family: monospace;
+  line-height: 1.5em;
+  overflow: visible;
+  overflow-x: scroll;
+  padding: 1em !important;
+  resize: none;
+  white-space: pre;
+  width: 100% !important;
+}
+
+.jtools_options {
+  background: #fff;
+}
+.jtools_options th {
+  padding-left: 10px;
+}
+
+.jtools_tag {
+  background: #fff;
+  margin: 1em 0;
+  padding: 1.5em;
+  text-align: center;
+}
+.jtools_tag h3 {
+  font-size: 1.5em;
+  font-family: monospace;
+  font-weight: normal;
+  letter-spacing: .05em;
+}
+.jtools_welcome {
+  background: #97C64C;
+  color: #fff;
+  font-size: 1.25em;
+  font-weight: bolder;
+  margin: 1em 0;
+  padding: 1.5em;
+}
+
+.jtools_color {
+  text-transform: uppercase;
+}
